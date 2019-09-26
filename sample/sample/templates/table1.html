@@ -24,7 +24,6 @@ text-align:center;
 <tr>
 <td><input type="checkbox" name="v" value="B"> </td>
 <td>{{j.content}}</td>
-<td>{{j.id}}</td>
 <td><form action="/deleteview/{{j.id}}/" method="post">{% csrf_token %}
 <input type="submit" value="delete"/>
 </form>
